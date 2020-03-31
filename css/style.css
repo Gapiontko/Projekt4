@@ -16,6 +16,7 @@ body {
 
 section {
   padding: 96px 0;
+  height: 100vh;
 }
 
 .container {
@@ -26,6 +27,16 @@ section {
 
 a {
   text-decoration: none;
+}
+
+.section-title {
+  font-size: 40px;
+  font-family: "Signika", sans-serif;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  font-family: "Signika", sans-serif;
 }
 
 /* Top */
@@ -124,5 +135,57 @@ a {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* services */
+.wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.our-services {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.our-services {
+  font-style: italic;
+}
+
+.icons {
+  padding-top: 79px;
+  -ms-flex-positive: 2;
+      flex-grow: 2;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.services-col {
+  -ms-flex: 0 0 33%;
+      flex: 0 0 33%;
+  padding: 0 12px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  display: block;
+}
+
+.icon {
+  margin: auto;
+}
+
+.icon i {
+  line-height: 66px;
+  font-size: 36px;
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+  color: #fed136;
+  border-color: #fed136;
+  border-style: solid;
+  border-width: 3px;
 }
 /*# sourceMappingURL=style.css.map */

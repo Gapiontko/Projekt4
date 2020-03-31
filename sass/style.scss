@@ -27,6 +27,7 @@ body {
 }
 section {
 	padding: 96px 0;
+  height: 100vh;
 }
 .container {
 	max-width: 1140px;
@@ -35,6 +36,14 @@ section {
 }
 a {
   text-decoration: none;
+}
+.section-title {
+  font-size: 40px;
+  font-family: $font-titles;
+}
+.section-subtitle {
+  font-size: 18px;
+  font-family: $font-titles;
 }
 
 /* Top */
@@ -112,4 +121,43 @@ a {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* services */
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.our-services {
+	flex-grow: 1;
+}
+.our-services {
+  font-style: italic;
+}
+.icons {
+  padding-top: 79px;
+  flex-grow: 2;
+	display: flex;
+	justify-content: space-between;
+}
+.services-col {
+	flex: 0 0 33%;
+	padding: 0 12px;
+	flex-basis: 30%;
+	display: block;
+}
+.icon {
+  margin: auto;
+}
+.icon i {
+  line-height: 66px;
+  font-size: 36px;
+	height: 66px;
+	width: 66px;
+	border-radius: 50%;
+  color: $color-highlight;
+  border-color: $color-highlight;
+  border-style: solid;
+  border-width: 3px;
 }
