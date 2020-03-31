@@ -23,4 +23,103 @@ section {
   padding: 0 20px;
   margin: 0 auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* Top */
+.top {
+  background-image: url("images/background image.png");
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.row-upper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.logo {
+  -ms-flex: 50% 0;
+      flex: 50% 0;
+  margin-left: 100px;
+  color: #fed136;
+  font-family: "Great Vibes", cursive;
+}
+
+.navigation {
+  -ms-flex: 0 50%;
+      flex: 0 50%;
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 36px;
+}
+
+.navigation li a {
+  color: #ffffff;
+}
+
+.row-header {
+  position: relative;
+  -ms-flex-positive: 2;
+      flex-grow: 2;
+}
+
+.splash {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.page-title {
+  font-size: 75px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  font-family: "Signika", sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+.page-subtitle {
+  font-size: 24px;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn {
+  display: block;
+  border-color: #ffffff;
+  background: #fed136;
+  width: 183px;
+  margin: auto;
+  padding: 14px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: #fed136;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */

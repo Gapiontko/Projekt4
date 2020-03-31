@@ -33,3 +33,80 @@ section {
 	padding: 0 20px;
 	margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
+
+/* Top */
+
+.top {
+	background-image: url("images/background image.png");
+	height: fit-content;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 500px;
+}
+.row-upper {
+	display: flex;
+  flex-grow: 1;
+}
+.logo {
+	flex: 50% 0;
+  margin-left: 100px;
+  color: $color-highlight;
+  font-family: $font-logo;
+}
+.navigation {
+	flex: 0 50%;
+}
+.navigation ul {
+	list-style: none;
+}
+.navigation li {
+    display: inline-block;
+    margin-right: 36px;
+}
+.navigation li a {
+    color: $color-light;
+}
+.row-header {
+    position: relative;
+    flex-grow: 2;
+}
+.splash {
+    width: 100%;
+    height: max-content;
+}
+.page-title {
+	font-size: 75px;
+	letter-spacing: -2px;
+	color: $color-light;
+  font-family: $font-titles;
+	text-align: center;
+	font-weight: 400;
+}
+.page-subtitle {
+	font-size: 24px;
+	font-family: $font-page-header;
+	text-align: center;
+	color: $color-light;
+}
+.btn {
+	display: block;
+  border-color: $color-light;
+	background: $color-highlight;
+  width: 183px;
+  margin: auto;
+  padding: 14px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: $color-highlight;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
