@@ -9,3 +9,27 @@ $color-main: #777777;
 $color-dark: #222222;
 $color-highlight: #fed136;
 $color-copyright: #555555;
+$darker-background: #f7f7f7;
+
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+	font-size: 14px;
+	font-family: $font-main;
+	color: $color-main;
+  text-align: center;
+	margin: 0;
+	line-height: 30px;
+	font-weight: 400px;
+}
+section {
+	padding: 96px 0;
+}
+.container {
+	max-width: 1140px;
+	padding: 0 20px;
+	margin: 0 auto;
+}

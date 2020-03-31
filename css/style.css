@@ -1,2 +1,26 @@
 /* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
+  color: #777777;
+  text-align: center;
+  margin: 0;
+  line-height: 30px;
+  font-weight: 400px;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
