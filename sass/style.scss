@@ -40,7 +40,7 @@ a {
 /* Top */
 
 .top {
-	background-image: url("images/background image.png");
+	background-image: url("../../images/Background Image.png");
 	height: fit-content;
 	background-position: center center;
 	background-size: cover;
@@ -49,6 +49,7 @@ a {
   flex-direction: column;
   height: 100vh;
   min-height: 500px;
+  padding: 0;
 }
 .row-upper {
 	display: flex;
@@ -56,9 +57,11 @@ a {
 }
 .logo {
 	flex: 50% 0;
+  text-align: left;
   margin-left: 100px;
   color: $color-highlight;
   font-family: $font-logo;
+  font-size: 26px;
 }
 .navigation {
 	flex: 0 50%;
@@ -97,7 +100,7 @@ a {
 }
 .btn {
 	display: block;
-  border-color: $color-light;
+  color: $color-light;
 	background: $color-highlight;
   width: 183px;
   margin: auto;

@@ -30,7 +30,7 @@ a {
 
 /* Top */
 .top {
-  background-image: url("images/background image.png");
+  background-image: url("../../images/Background Image.png");
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -43,6 +43,7 @@ a {
       flex-direction: column;
   height: 100vh;
   min-height: 500px;
+  padding: 0;
 }
 
 .row-upper {
@@ -55,9 +56,11 @@ a {
 .logo {
   -ms-flex: 50% 0;
       flex: 50% 0;
+  text-align: left;
   margin-left: 100px;
   color: #fed136;
   font-family: "Great Vibes", cursive;
+  font-size: 26px;
 }
 
 .navigation {
@@ -109,7 +112,7 @@ a {
 
 .btn {
   display: block;
-  border-color: #ffffff;
+  color: #ffffff;
   background: #fed136;
   width: 183px;
   margin: auto;
