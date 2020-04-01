@@ -209,3 +209,45 @@ a {
 .portfolio-text {
   background-color: $color-light;
 }
+
+/* Footer */
+
+.page-footer {
+  display: flex;
+  text-align: left;
+}
+
+.copyright {
+  color: $color-copyright
+  flex-grow: 1;
+  text-align: left;
+}
+.social-links {
+  flex-grow: 2;
+}
+footer li {
+	font-size: 0;
+}
+i {
+	font-size: 30px;
+	background: $color-dark;
+	width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: $color-light;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 15px;
+}
+.twitter i:hover {
+  background: #00aced;
+}
+.facebook i:hover {
+  background: #3b5998;
+}
+.pinterest i:hover {
+  background: #cb2028;
+}
+.pinterest i:hover {
+  background: #da2713;
+}
