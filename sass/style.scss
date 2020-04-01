@@ -212,21 +212,27 @@ a {
 
 /* Footer */
 
+footer {
+  min-height: 100px;
+}
 .page-footer {
   display: flex;
   text-align: left;
 }
-
 .copyright {
-  color: $color-copyright
+  color: $color-copyright;
   flex-grow: 1;
   text-align: left;
 }
 .social-links {
   flex-grow: 2;
 }
-footer li {
+.social-links ul {
+    list-style-type: none;
+}
+.social-links li {
 	font-size: 0;
+  display: inline-block;
 }
 i {
 	font-size: 30px;
@@ -239,15 +245,15 @@ i {
   text-align: center;
   padding-top: 15px;
 }
-.twitter i:hover {
+.fa-twitter:hover {
   background: #00aced;
 }
-.facebook i:hover {
+.fa-facebook-f:hover {
   background: #3b5998;
 }
-.pinterest i:hover {
+.fa-pinterest-p:hover {
   background: #cb2028;
 }
-.pinterest i:hover {
+.fa-google-plus-g:hover {
   background: #da2713;
 }

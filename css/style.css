@@ -251,4 +251,64 @@ a {
 .portfolio-text {
   background-color: #ffffff;
 }
+
+/* Footer */
+footer {
+  min-height: 100px;
+}
+
+.page-footer {
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.copyright {
+  color: #555555;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  text-align: left;
+}
+
+.social-links {
+  -ms-flex-positive: 2;
+      flex-grow: 2;
+}
+
+.social-links ul {
+  list-style-type: none;
+}
+
+.social-links li {
+  font-size: 0;
+  display: inline-block;
+}
+
+i {
+  font-size: 30px;
+  background: #222222;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.fa-twitter:hover {
+  background: #00aced;
+}
+
+.fa-facebook-f:hover {
+  background: #3b5998;
+}
+
+.fa-pinterest-p:hover {
+  background: #cb2028;
+}
+
+.fa-google-plus-g:hover {
+  background: #da2713;
+}
 /*# sourceMappingURL=style.css.map */
