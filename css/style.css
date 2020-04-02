@@ -311,4 +311,33 @@ footer i {
 .fa-google-plus-g:hover {
   background: #da2713;
 }
+
+/* Media */
+@media (max-width: 767px) {
+  .container {
+    max-width: 1140px;
+  }
+  .navigation li {
+    display: block;
+    margin-right: 36px;
+  }
+  .page-title {
+    font-size: 64px;
+  }
+  .icons {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .portfolio-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .social-links li {
+    display: block;
+  }
+}
 /*# sourceMappingURL=style.css.map */

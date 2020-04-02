@@ -257,3 +257,29 @@ footer i {
 .fa-google-plus-g:hover {
   background: #da2713;
 }
+
+/* Media */
+
+@media (max-width: 767px) {
+ 	.container {
+	max-width: 1140px;
+	}
+  .navigation li {
+      display: block;
+      margin-right: 36px;
+  }
+	.page-title {
+    font-size: 64px;
+	}
+  .icons {
+    display: flex;
+    flex-direction: column;
+  }
+ 	.portfolio-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-links li {
+    display: block;
+  }
+}
