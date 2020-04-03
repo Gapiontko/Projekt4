@@ -309,7 +309,7 @@ footer i {
 }
 
 /* Media */
-@media (max-width: 950px) {
+@media (max-width: 960px) {
   .navigation li {
     display: block;
     margin-right: 36px;
@@ -329,6 +329,10 @@ footer i {
 @media (max-width: 767px) {
   .container {
     max-width: 1140px;
+  }
+  .row-upper {
+    -ms-flex-direction: column;
+        flex-direction: column;
   }
   .page-title {
     font-size: 64px;
